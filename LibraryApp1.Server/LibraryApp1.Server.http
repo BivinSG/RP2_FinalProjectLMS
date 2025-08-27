@@ -1,0 +1,47 @@
+@LibraryApp1.Server_HostAddress = https://localhost:7023
+
+GET {{LibraryApp1.Server_HostAddress}}/api/bookreview
+
+###
+
+@id=1
+GET {{LibraryApp1.Server_HostAddress}}/api/bookreview/{{id}}
+
+###
+
+POST {{LibraryApp1.Server_HostAddress}}/api/bookreview
+Content-Type: application/json
+
+{
+  "userid": 1,
+  "bookId": 2,
+  "review": "Great book Again!",
+  "rating": 4
+}
+
+###
+
+@userId=1
+GET {{LibraryApp1.Server_HostAddress}}/api/bookreview/user/{{userId}}
+
+###
+
+GET {{LibraryApp1.Server_HostAddress}}/api/loan/1
+
+###
+
+GET {{LibraryApp1.Server_HostAddress}}/api/bookreview/1
+
+###
+
+GET {{LibraryApp1.Server_HostAddress}}/api/book
+
+###
+
+GET {{LibraryApp1.Server_HostAddress}}/api/bookreview/to-review/{{userId}}
+
+###
+
+GET {{LibraryApp1.Server_HostAddress}}/api/bookreview/user/{{userId}}
+
+###

@@ -1,0 +1,14 @@
+﻿html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-menu .ant-menu-item-selected {
+    background-color: #52b788 !important;
+    color: #ffffff !important;
+}
+
+    .custom-menu .ant-menu-item-selected a {
+        color: #ffffff !important;
+    }
