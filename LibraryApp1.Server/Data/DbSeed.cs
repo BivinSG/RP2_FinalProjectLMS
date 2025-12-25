@@ -345,116 +345,116 @@ namespace LibraryApp1.Server.Data
                         Password = "admin",
                         Role = "Admin"
                     },
-                    new User
-                    {
-                        Name = "Mary Sherine",
-                        DateOfBirth = new DateOnly(1991, 2, 9),
-                        Address = "Kaithavalappil, Kannamaly, Kochi",
-                        MobileNumber = "8593961726",
-                        EmailId = "marysherine3@gmail.com",
-                        IsActive = "Yes",
-                        Password = "sherine123",
-                        Role = "user"
-                    },
-                    new User
-                    {
-                        Name = "Nidhun K R",
-                        DateOfBirth = new DateOnly(1995, 4, 12),
-                        Address = "Palakkad, Kerala",
-                        MobileNumber = "6282566835",
-                        EmailId = "nidhun666mojo@gmail.com",
-                        IsActive = "Yes",
-                        Password = "nidhun123",
-                        Role = "user"
-                    },
-                                   new User
-                                   {
-                                       Name = "Soniya Joseph Nedumattathil",
-                                       DateOfBirth = new DateOnly(1995, 4, 12),
-                                       Address = "Cheruthuruthy, Kerala",
-                                       MobileNumber = "6282566835",
-                                       EmailId = "soniyajoseph111@gmail.com",
-                                       IsActive = "Yes",
-                                       Password = "soniya123",
-                                       Role = "user"
-                                   },
-                    new User
-                    {
-                        Name = "Cenoy P Alias",
-                        DateOfBirth = new DateOnly(1995, 4, 12),
-                        Address = "Ernakulam, Kerala",
-                        MobileNumber = "6282566835",
-                        EmailId = "cenoyp@rp2.center",
-                        IsActive = "Yes",
-                        Password = "cenoy123",
-                        Role = "user"
-                    },
-                           new User
-                           {
-                               Name = "Mubashira S",
-                               DateOfBirth = new DateOnly(1995, 4, 12),
-                               Address = "Ernakulam, Kerala",
-                               MobileNumber = "6282566835",
-                               EmailId = "mubashiras@rp2.center",
-                               IsActive = "Yes",
-                               Password = "mubashira123",
-                               Role = "user"
-                           },
-                                   new User
-                                   {
-                                       Name = "Amina N M",
-                                       DateOfBirth = new DateOnly(1995, 4, 12),
-                                       Address = "Ernakulam, Kerala",
-                                       MobileNumber = "6282566835",
-                                       EmailId = "aminan@rp2.center",
-                                       IsActive = "Yes",
-                                       Password = "amina123",
-                                       Role = "user"
-                                   },
-                                        new User
-                                        {
-                                            Name = "Manjusha",
-                                            DateOfBirth = new DateOnly(1995, 4, 12),
-                                            Address = "Ernakulam, Kerala",
-                                            MobileNumber = "6282566835",
-                                            EmailId = "manjushat@idatalytics.com",
-                                            IsActive = "Yes",
-                                            Password = "manjusha123",
-                                            Role = "user"
-                                        },
-                                            new User
-                                            {
-                                                Name = "Amal Dev Mohan",
-                                                DateOfBirth = new DateOnly(1995, 4, 12),
-                                                Address = "Ernakulam, Kerala",
-                                                MobileNumber = "6282566835",
-                                                EmailId = "amaldevmohan@gmail.com",
-                                                IsActive = "Yes",
-                                                Password = "amal123",
-                                                Role = "user"
-                                            },
-                                                new User
-                                                {
-                                                    Name = "Asish J Benson",
-                                                    DateOfBirth = new DateOnly(1995, 4, 12),
-                                                    Address = "Ernakulam, Kerala",
-                                                    MobileNumber = "6282566835",
-                                                    EmailId = "ashishjbenson@gmail.com",
-                                                    IsActive = "Yes",
-                                                    Password = "asish123",
-                                                    Role = "user"
-                                                },
-                                                        new User
-                                                        {
-                                                            Name = "Jannet Roselin Lawrance",
-                                                            DateOfBirth = new DateOnly(1995, 4, 12),
-                                                            Address = "Ernakulam, Kerala",
-                                                            MobileNumber = "6282566835",
-                                                            EmailId = "jaanus123@gmail.com",
-                                                            IsActive = "Yes",
-                                                            Password = "jannet123",
-                                                            Role = "user"
-                                                        },
+                    //new User
+                    //{
+                    //    Name = "Mary Sherine",
+                    //    DateOfBirth = new DateOnly(1991, 2, 9),
+                    //    Address = "Kaithavalappil, Kannamaly, Kochi",
+                    //    MobileNumber = "8593961726",
+                    //    EmailId = "marysherine3@gmail.com",
+                    //    IsActive = "Yes",
+                    //    Password = "sherine123",
+                    //    Role = "user"
+                    //},
+                    //new User
+                    //{
+                    //    Name = "Nidhun K R",
+                    //    DateOfBirth = new DateOnly(1995, 4, 12),
+                    //    Address = "Palakkad, Kerala",
+                    //    MobileNumber = "6282566835",
+                    //    EmailId = "nidhun666mojo@gmail.com",
+                    //    IsActive = "Yes",
+                    //    Password = "nidhun123",
+                    //    Role = "user"
+                    ////},
+                    //               new User
+                    //               {
+                    //                   Name = "Soniya Joseph Nedumattathil",
+                    //                   DateOfBirth = new DateOnly(1995, 4, 12),
+                    //                   Address = "Cheruthuruthy, Kerala",
+                    //                   MobileNumber = "6282566835",
+                    //                   EmailId = "soniyajoseph111@gmail.com",
+                    //                   IsActive = "Yes",
+                    //                   Password = "soniya123",
+                    //                   Role = "user"
+                    //               },
+                    //new User
+                    //{
+                    //    Name = "Cenoy P Alias",
+                    //    DateOfBirth = new DateOnly(1995, 4, 12),
+                    //    Address = "Ernakulam, Kerala",
+                    //    MobileNumber = "6282566835",
+                    //    EmailId = "cenoyp@rp2.center",
+                    //    IsActive = "Yes",
+                    //    Password = "cenoy123",
+                    //    Role = "user"
+                    //},
+                    //       new User
+                    //       {
+                    //           Name = "Mubashira S",
+                    //           DateOfBirth = new DateOnly(1995, 4, 12),
+                    //           Address = "Ernakulam, Kerala",
+                    //           MobileNumber = "6282566835",
+                    //           EmailId = "mubashiras@rp2.center",
+                    //           IsActive = "Yes",
+                    //           Password = "mubashira123",
+                    //           Role = "user"
+                    //       },
+                    //               new User
+                    //               {
+                    //                   Name = "Amina N M",
+                    //                   DateOfBirth = new DateOnly(1995, 4, 12),
+                    //                   Address = "Ernakulam, Kerala",
+                    //                   MobileNumber = "6282566835",
+                    //                   EmailId = "aminan@rp2.center",
+                    //                   IsActive = "Yes",
+                    //                   Password = "amina123",
+                    //                   Role = "user"
+                    //               },
+                    //                    new User
+                    //                    {
+                    //                        Name = "Manjusha",
+                    //                        DateOfBirth = new DateOnly(1995, 4, 12),
+                    //                        Address = "Ernakulam, Kerala",
+                    //                        MobileNumber = "6282566835",
+                    //                        EmailId = "manjushat@idatalytics.com",
+                    //                        IsActive = "Yes",
+                    //                        Password = "manjusha123",
+                    //                        Role = "user"
+                    //                    },
+                    //                        new User
+                    //                        {
+                    //                            Name = "Amal Dev Mohan",
+                    //                            DateOfBirth = new DateOnly(1995, 4, 12),
+                    //                            Address = "Ernakulam, Kerala",
+                    //                            MobileNumber = "6282566835",
+                    //                            EmailId = "amaldevmohan@gmail.com",
+                    //                            IsActive = "Yes",
+                    //                            Password = "amal123",
+                    //                            Role = "user"
+                    //                        },
+                    //                            new User
+                    //                            {
+                    //                                Name = "Asish J Benson",
+                    //                                DateOfBirth = new DateOnly(1995, 4, 12),
+                    //                                Address = "Ernakulam, Kerala",
+                    //                                MobileNumber = "6282566835",
+                    //                                EmailId = "ashishjbenson@gmail.com",
+                    //                                IsActive = "Yes",
+                    //                                Password = "asish123",
+                    //                                Role = "user"
+                    //                            },
+                    //                                    new User
+                    //                                    {
+                    //                                        Name = "Jannet Roselin Lawrance",
+                    //                                        DateOfBirth = new DateOnly(1995, 4, 12),
+                    //                                        Address = "Ernakulam, Kerala",
+                    //                                        MobileNumber = "6282566835",
+                    //                                        EmailId = "jaanus123@gmail.com",
+                    //                                        IsActive = "Yes",
+                    //                                        Password = "jannet123",
+                    //                                        Role = "user"
+                    //                                    },
                                                                 new User
                                                                 {
                                                                     Name = "SunnyVG",
